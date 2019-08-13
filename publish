@@ -1,0 +1,2 @@
+#!/bin/sh
+rsync -aW --exclude .git --exclude publish --delete ./ jargon.kemitchell.com:/var/www/jargon.kemitchell.com/
